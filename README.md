@@ -10,11 +10,16 @@ This electrical circuit enables the robot to sense the presence of a human at a 
 
 In other words, the ultrasonic sensor senses someone at a distance of 0 cm or less then it gives a signal to the servo motors to move with a certain movement, and also gives a signal to the bluetooth module to sends a bluetooth message to turn on the screen.
 
-Electrical circuit components:
+# circuit components:
 
 1- arduino microcontroller
 
-2- bluetooth module (instead i used a led and connect it to the arduino)
+**2- bluetooth module**
+<p align="left"><img src="https://user-images.githubusercontent.com/85819577/128101659-35e023f2-564e-4502-a290-155cfe0b8c62.png" width="190" height="180" /></p>
+
+**(instead i used a led and connect it to the arduino just to show that the led will turn on when a human become around the robot).**
+
+**The bluetooth module contains four pins (VCC, GND, RX, TX) same as the arduino controller. To connect them together link the VCC pin to the 5V pin on arduino and GND pin to the GND pin, then connects the RX pin of the bluetooth module to the TX pin of the arduino, and TX pin of the bluetooth module to the RX pin of the arduino, then program the bluetooth module.**
 
 3- breadboard
 
@@ -25,7 +30,7 @@ Electrical circuit components:
 The robot hands are supposed to perform a certain movement, but I only made the motors move to an angle of 90 without making a certain movement just to make sure the ultrasonic sensor works well.
 
 
-
+#
 https://user-images.githubusercontent.com/85819577/128099644-963bdb51-b6ac-472a-9580-4cb6a15f8c54.mp4
 
 
