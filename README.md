@@ -1,7 +1,7 @@
 ## Triggering servo motors and led using ultrasonic sensor
 
 
-I've designed an electronic circuit to control the reception robot, which aims to interact with users by welcoming them through hand movement and facial exxpressions. The robot's functionality includes engaging in a chatbot conversation with the user and concluding by requesting an evaluation of its performance.
+I've designed an electronic circuit to control the reception robot, which aims to interact with users by welcoming them through hand movement and facial expressions. The robot's functionality includes engaging in a chatbot conversation with the user and concluding by requesting an evaluation of its performance.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/85819577/127908850-3deb6aae-aef2-4c32-b79a-c398627af06c.png" width="350" height="250" /></p>
 
